@@ -242,6 +242,7 @@ class OctoberInstall extends Command
         $result['database'] = $this->ask('Database Name', Config::get('database.connections.pgsql.database'));
         $result['username'] = $this->ask('Postgres Login', Config::get('database.connections.pgsql.username'));
         $result['password'] = $this->ask('Postgres Password', Config::get('database.connections.pgsql.password') ?: false) ?: '';
+        $result['schema'] = $this->ask('Postgres Schema', Config::get('database.connections.pgsql.schema') ?: false) ?: '';
         return $result;
     }
 

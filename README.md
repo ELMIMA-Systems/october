@@ -1,3 +1,13 @@
+This is our for of the amazing OctoberCMS. If you stumbled upon this respoitory by chance, you probably want the original version of [October](https://octobercms.com).
+
+Current modifications:
+- enable custom schema for Postgres
+
+Intsllation instructions for this version:
+- Clone the repo
+- run composer install
+- run php artisan october:install
+
 <p align="center">
     <img src="https://github.com/octobercms/october/blob/master/themes/demo/assets/images/october.png?raw=true" alt="October" width="25%" height="25%" />
 </p>
